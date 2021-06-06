@@ -1,24 +1,28 @@
 <html>
+
 <head>
 	<title>Session timer</title>
 
-    <link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link rel="stylesheet" href="style/style.css" />
 </head>
+
 <body>
-	<label for="duration">Duration of session: </label><input type="text" id="duration" placeholder="30"> <span>minutes. </span>
-	<br/>
+	<label for="duration">Duration of session: </label><input type="text" id="duration" placeholder="30"> <span>minutes.
+	</span>
+	<br />
 	<button id="start">Start</button>
 	<button id="stop">Stop</button>
 	<div id="time" class="centered timer">00:00</div>
 
 	<audio id="delete_your_code_audio" preload="auto">
-			<source src="resources/delete_your_code_now_female.mp3" type="audio/mp3">
+		<source src="resources/delete_your_code_now_female.mp3" type="audio/mp3">
 	</audio>
 
 	<script src="./lib/jquery-2.1.4.min.js"> </script>
 	<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
 
-	<script src="./src/timer.js" > </script>
+	<script src="./src/timer.js"> </script>
 </body>
+
 </html>
